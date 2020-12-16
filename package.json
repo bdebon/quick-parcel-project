@@ -1,0 +1,25 @@
+{
+  "name": "quick-parcel-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "start-multiple-entries": "parcel index.html centered.html what.html ",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "assets": "^3.0.1",
+    "js": "^0.1.0",
+    "parcel-plugin-asset-copier": "^1.1.0",
+    "parcel-plugin-html-root-syntax": "0.0.3",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1",
+    "posthtml-include": "^1.4.3",
+    "sass": "^1.26.11"
+  },
+  "keywords": [],
+  "assetsPath": "assets"
+}

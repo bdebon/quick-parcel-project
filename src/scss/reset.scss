@@ -1,0 +1,81 @@
+/*─────────────────────────────────────────────────────────────────────────────────────────────────*/
+/*─────────────────────────────────────────────────────────────────────────────────────────────────*/
+/*─
+/*─                                                                                      RESET
+/*─
+/*─────────────────────────────────────────────────────────────────────────────────────────────────*/
+/*─────────────────────────────────────────────────────────────────────────────────────────────────*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: none; /*─ Debug font size on iphone when landscape orientation ─*/
+  -webkit-font-smoothing: subpixel-antialiased; /*─ Debug safari font weight when fixed element on the page ─*/
+  -webkit-font-smoothing: antialiased; /*─ idem : Debug safari font weight when fixed element on the page ─*/
+}
+html, body, nav, header, footer, div, span,
+h1, h2, h3, p,
+a, img,
+ul, li,
+table, form, label, input, textarea, select, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  //font-family: inherit;
+  font-size: 100%;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+input, textarea, select, button {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  background: none;
+  color: inherit;
+}
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+input[type='submit']:hover,
+button:hover {
+  cursor: pointer;
+}
+input::-ms-clear {
+  display: none; /*─ IE11 → remove cross to close ─*/
+}
+textarea {
+  overflow: auto; /*─ Hide scroll bar on IE ─*/
+}
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+img, video, svg, picture {
+  display: block;
+}
+img, video {
+  width: 100%;
+  height: auto;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
