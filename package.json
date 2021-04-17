@@ -2,23 +2,23 @@
   "name": "quick-parcel-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "start-multiple-entries": "parcel index.html centered.html what.html ",
-    "build": "parcel build index.html"
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "start-multiple-entries": "parcel src/index.html centered.html what.html "
   },
   "dependencies": {
     "assets": "^3.0.1",
     "js": "^0.1.0",
-    "parcel-plugin-asset-copier": "^1.1.0",
-    "parcel-plugin-html-root-syntax": "0.0.3",
-    "scss": "^0.2.4"
+    "posthtml-doctype": "^1.1.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.6.1",
-    "posthtml-include": "^1.4.3",
-    "sass": "^1.26.11"
+    "@parcel/transformer-sass": "2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "posthtml-include": "^1.7.0",
+    "posthtml-modules": "^0.7.4",
+    "posthtml-shorten": "^1.0.0"
   },
   "keywords": [],
   "assetsPath": "assets"

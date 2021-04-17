@@ -1,6 +1,33 @@
 @import 'scss/reset';
-@import 'scss/base';
-@import 'scss/nav';
-@import 'scss/footer';
-
 @import '../assets/fonts/webfonts/stylesheet.css';
+
+@import 'scss/base';
+
+
+// css for the demo
+html, body {
+  //height: 100%;
+  //width: 100%;
+}
+
+body {
+  padding: 32px;
+}
+
+.hero {
+  height: 100%;
+  background: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  h1 {
+    font-size: 3em;
+  }
+}
+
+a {
+  text-decoration: underline;
+}

@@ -1,8 +1,7 @@
 <html>
 <head>
-    <title>Parcel Sandbox</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+    <link rel="stylesheet" type="text/css" href="styles.scss"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.example.com">
@@ -35,15 +34,13 @@
 </head>
 
 <body>
-<include src="src/partials/nav.html"></include>
 
-<div class="container">
-    <h1>Quick Start Parcel Project</h1>
-</div>
+<module href="src/partials/hero.html" locals='{"title":"Quick Parcel Project by Benjamin Code"}'>
+    Ceci est le <a href="https://github.com/bdebon/quick-parcel-project" target="_blank">quick starter project</a> de Benjamin Code propulsé par Parcel.js v2
+</module>
 
-<include src="src/partials/footer.html"></include>
 
-<script src="src/index.js"></script>
+<script src="index.ts"></script>
 
 </body>
 </html>
