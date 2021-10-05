@@ -25,7 +25,7 @@ For a bigger project with parcel v2 and many good features, use the main branch.
 You must install codesandbox command line on your computer. Then add this alias to your `.zshrc`:
 
 ```
-ALIAS 
+alias share_code='rm -rf dist .cache && codesandbox ./'
 ```
 
 # Benjamin Code
