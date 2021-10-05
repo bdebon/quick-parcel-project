@@ -1,6 +1,29 @@
 @import 'scss/reset';
 @import 'scss/base';
-@import 'scss/nav';
-@import 'scss/footer';
 
-@import '../assets/fonts/webfonts/stylesheet.css';
+body {
+  padding: 32px;
+}
+
+.hero {
+  height: 100%;
+  background: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  h1 {
+    font-size: calc(54vw * 100 / 1440);
+    margin-bottom: calc(12vw * 100 / 1440);
+  }
+
+  p {
+    font-size: calc(24vw * 100 / 1440);
+  }
+}
+
+a {
+  text-decoration: underline;
+}
