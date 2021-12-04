@@ -1,3 +1,7 @@
+# Introduction
+This is the a quick start project made and used by Benjamin Code to quickly experiment stuffs when he's trying to replicate cool effects he sees on the web.
+
+
 # Installation
 ``` 
 npm install
@@ -29,7 +33,6 @@ alias share_code='rm -rf dist .cache && codesandbox ./'
 ```
 
 # Benjamin Code
-This is the a quick start project made and used by Benjamin Code to quickly experiment stuffs when he's trying to replicate cool effects he sees on the web.
 
 It's also the project he uses for his Twitch livestreams.
 
