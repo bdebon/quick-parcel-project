@@ -1,5 +1,5 @@
 # Introduction
-This is the a quick start project made and used by Benjamin Code to quickly experiment stuffs when he's trying to replicate cool effects he sees on the web.
+This is the a quick starter project made and used by Benjamin Code to quickly experiment stuffs when he's trying to replicate cool effects he sees on the web.
 
 
 # Installation
