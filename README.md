@@ -18,14 +18,6 @@ npm run dev
 
 Run the above command to launch dev server and then go to `localhost:3000`
 
-### Live preview
-
-```shell
-npm run preview
-```
-
-To launch live preview by using ViteJs generated link.
-
 ### Build
 
 ```shell
@@ -36,11 +28,8 @@ To compile codes & build for production. That will create a **"./dist"** directo
 
 ## 🚧 Handling changes
 
-If you need to change things such as navbar for example, you will find all the reusable component throughout the pages in the folder : `./src/partials`.
-Change the html here and modify the css in the good file in `./src/scss`.
+Change the html and modify the css in the good file in `./src/scss`.
 That is almost everything you need to know.
-
-If you have run : `npm run start`, parcels has an excellent hot reload except if you are on another page than index.html. There is a bug with parcels that requires you to manually refresh the page when you are not working on `index.html`.
 
 ## ⚡ Alias to quickly upload the code on **codesandbox**
 
