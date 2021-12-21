@@ -1,12 +1,11 @@
 {
-	"name": "quick-parcel-project",
+	"name": "quick-vite-project",
 	"version": "1.1.0",
-	"description": "",
+	"description": "This is the a quick starter project made and used by Benjamin Code to quickly experiment stuffs when he's trying to replicate cool effects he sees on the web.",
 	"main": "index.html",
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"build": "tsc && vite build"
 	},
 	"dependencies": {
 		"assets": "^3.0.1",
