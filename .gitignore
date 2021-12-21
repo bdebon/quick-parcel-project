@@ -1,5 +1,7 @@
 /node_modules/
 /dist/
+/dist-ssr/
 /.idea/
 /.cache
 .DS_Store
+*.local
